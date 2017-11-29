@@ -8,6 +8,6 @@ sys.setdefaultencoding('utf8')
 #并保持在版本控制之外。 你可能要隐藏类似数据库密码和API密钥的秘密，或定义特定于当前机器的参数。
 #instance文件夹的隐秘属性使得它成为藏匿密钥的好地方
 
-SECRET_KEY = 'e-l-s-a'
-SQLALCHEMY_DATABASE_URI = 'mysql://root:123321@localhost/dreamteam_db'
+SECRET_KEY = '*-*-*-*'
+SQLALCHEMY_DATABASE_URI = 'mysql://root:*******@localhost/dreamteam_db'
 
